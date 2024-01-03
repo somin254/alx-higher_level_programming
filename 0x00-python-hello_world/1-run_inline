@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bash
 
 # Check if PYCODE environment variable is set
 if [ -z "$PYCODE" ]; then
@@ -8,3 +8,4 @@ fi
 
 # Run Python code from PYCODE environment variable
 python3 -c "$PYCODE"
+
